@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
+.justify-all{
+  text-align: center;
+  font-size: 30px;
+  font-family: monospace;
+}
+.invisible{
+  display: none;
+}
+
+.finalMsg{
+  margin-top: 28vh;
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #eb34c0;
+
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+  background-image: url("image/background.gif");
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+.next1{
+
+}
+
+.correct{
+  font-size: 20px;
+  text-align: center;
+  color: Pink;
+}
+
+.verdict{
+  text-align: center;
+  font-size: 100px;
+  margin-top: 10vh;
+  color: hotpink;
+  font-family: serif;
+}
+
+.gamestart{
+margin-top : 45vh;
+margin-left: 39vw;
+font-family: 'Permanent Marker', cursive;
+}
+
+.questionwindow{
+
+}
+.format{
+  margin-left: 39vw;
+  margin-top: 10vh;
+}
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:linear-gradient(to bottom, #ff0088 5%, #ef027d 100%);
+	background-color:#ff0088;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+  width: 200px;
+	font-size:15px;
+	font-weight:bold;
+	padding:25px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #c70067;
+  text-align: center;
+
+}
+
+
+.myButton:hover {
+	background:linear-gradient(to bottom, #ef027d 5%, #ff0088 100%);
+	background-color:#ef027d;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
